@@ -23,3 +23,8 @@ Jquery confirmDialog without Boostrap
 		  //DangerAction
 		}
  
+
+
+
+> **#trigger** will be the element that will show the warning dialog when clicked
+> **#content** element after which the dialog html structure will be placed
