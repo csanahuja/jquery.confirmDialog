@@ -11,14 +11,14 @@
     <button id="trigger">DEMO</button>
     <script type="text/javascript">
       $('#trigger').click(function(){
-				$.createDialog({
-					attachAfter: '#trigger',
-					title: 'Are you sure you want to continue?',
-					accept: 'Yes',
-					refuse: 'Cancel',
-					acceptStyle: 'red',
-					refuseStyle: 'gray',
-					acceptAction: alertCall
+			$.createDialog({
+				attachAfter: '#trigger',
+				title: 'Are you sure you want to continue?',
+				accept: 'Yes',
+				refuse: 'Cancel',
+				acceptStyle: 'red',
+				refuseStyle: 'gray',
+				acceptAction: alertCall
 				});
 				$.showDialog();
 			});
