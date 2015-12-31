@@ -2,7 +2,7 @@
 Jquery confirmDialog without Boostrap
 
 ## Example
-![Example]https://i.gyazo.com/55265fec5a154308982fa30f0c2f4b02.png
+![Example](https://i.gyazo.com/55265fec5a154308982fa30f0c2f4b02.png)
 
 ## Usage
 
