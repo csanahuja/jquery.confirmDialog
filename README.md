@@ -24,7 +24,21 @@ Jquery confirmDialog without Boostrap
 		}
  
 
-
-
 > **#trigger** will be the element that will show the warning dialog when clicked
-> **#content** element after which the dialog html structure will be placed
+
+
+## Params
+
+> **attachAfter** element after which the dialog html structure will be placed.
+
+> **title** string to be shown as dialog title.
+
+> **accept** string to the "accept" button.
+
+> **refuse** string to the "refuse" button.
+
+> **acceptStyle** style to the "accept" button. It's the name of a css class. You can add more styles in the confirmDialog.css.
+
+> **refuseStyle** style to the "refuse" button. It's the name of a css class. You can add more styles in the confirmDialog.css.
+
+> **acceptAction** function (without params) that will be executed by clicking the "accept" button.
