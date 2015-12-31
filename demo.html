@@ -7,3 +7,26 @@
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="confirmDialog.jquery.min.js"></script>
   </head>
+  <body>
+    <button id="trigger">DEMO</button>
+    <script type="text/javascript">
+      $('#trigger').click(function(){
+				$.createDialog({
+					attachAfter: '#trigger',
+					title: 'Are you sure you want to continue?',
+					accept: 'Yes',
+					refuse: 'Cancel',
+					acceptStyle: 'red',
+					refuseStyle: 'gray',
+					acceptAction: alertCall
+				});
+				$.showDialog();
+			});
+			
+			function alertCall(){
+			  alert('Just did something dangerous!');
+			}
+			
+    </script>
+  </body>
+</html>
