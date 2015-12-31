@@ -19,3 +19,4 @@ Jquery confirmDialog without Boostrap
 >		function processDangerAction(){
 		  //DangerAction
 		}
+ 
