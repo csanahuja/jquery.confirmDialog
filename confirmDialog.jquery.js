@@ -5,8 +5,8 @@
  *
  * @author Javier Sanahuja Liebana <javi_lcs16@hotmail.com>
  *
- * @license Open
-
+ * https://github.com/BanNsS1/jquery.confirmDialog/ 
+ *
  */
  (function( $ ){
 	$.createDialog = function(options){
