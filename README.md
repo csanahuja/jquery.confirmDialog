@@ -14,15 +14,12 @@ Jquery confirmDialog without Boostrap
 				refuse: 'Cancel',
 				acceptStyle: 'red',
 				refuseStyle: 'gray',
-				acceptAction: processDangerAction
+				acceptAction: function(){
+					//Do danger thing
+				}
 			});
 			$.showDialog();
 		});
-		
->		function processDangerAction(){
-		  //DangerAction
-		}
- 
 
 > **#trigger** will be the element that will show the warning dialog when clicked
 
