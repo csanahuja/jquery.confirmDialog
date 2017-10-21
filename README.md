@@ -6,20 +6,22 @@ Jquery confirmDialog without Boostrap
 
 ## Usage
 
->		$('#trigger').click(function(){
-			$.createDialog({
-				attachAfter: '#content',
-				title: 'Are you sure you want to continue?',
-				accept: 'Yes',
-				refuse: 'Cancel',
-				acceptStyle: 'red',
-				refuseStyle: 'gray',
-				acceptAction: function(){
-					//Do danger thing
-				}
-			});
-			$.showDialog();
-		});
+```
+ $('#trigger').click(function(){
+	$.createDialog({
+		attachAfter: '#content',
+		title: 'Are you sure you want to continue?',
+		accept: 'Yes',
+		refuse: 'Cancel',
+		acceptStyle: 'red',
+		refuseStyle: 'gray',
+		acceptAction: function(){
+			//Do danger thing
+		}
+	});
+	$.showDialog();
+});
+```
 
 > **#trigger** will be the element that will show the warning dialog when clicked
 
