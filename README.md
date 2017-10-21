@@ -1,5 +1,5 @@
 # jquery.confirmDialog
-Jquery confirmDialog without Boostrap
+Jquery confirmDialog without Bootstrap
 
 ## Example
 ![Example](https://i.gyazo.com/55265fec5a154308982fa30f0c2f4b02.png)
