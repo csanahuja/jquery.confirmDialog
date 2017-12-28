@@ -3,9 +3,9 @@
  *
  * @version 1.0
  *
- * @author Javier Sanahuja Liebana <javi_lcs16@hotmail.com>
+ * @author Javier Sanahuja Liebana <bannss1@gmail.com>
  *
- * https://github.com/BanNsS1/jquery.confirmDialog/ 
+ * https://github.com/BanNsS1/jquery.confirmDialog/
  *
  */
  (function( $ ){
