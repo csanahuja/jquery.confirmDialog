@@ -11,8 +11,9 @@ Jquery confirmDialog without Bootstrap
 	$.createDialog({
 		attachAfter: '#content',
 		title: 'Are you sure you want to continue?',
-        template: `<p> This a template to provide some info to the customer <p>
-                   <p> <strong> Alert: </strong> If you proceed we would store the data </p>`,
+		template: `
+				<p> This a template to provide some info to the customer <p>
+				<p> <strong> Alert: </strong> If you proceed we would store the data </p>`,
 		accept: 'Yes',
 		refuse: 'Cancel',
 		acceptStyle: 'red',
