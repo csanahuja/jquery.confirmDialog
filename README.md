@@ -11,6 +11,8 @@ Jquery confirmDialog without Bootstrap
 	$.createDialog({
 		attachAfter: '#content',
 		title: 'Are you sure you want to continue?',
+        template: `<p> This a template to provide some info to the customer <p>
+                   <p> <strong> Alert: </strong> If you proceed we would store the data </p>`,
 		accept: 'Yes',
 		refuse: 'Cancel',
 		acceptStyle: 'red',
@@ -31,6 +33,8 @@ Jquery confirmDialog without Bootstrap
 > **attachAfter** element after which the dialog html structure will be placed.
 
 > **title** string to be shown as dialog title.
+
+> **template** string to be shown under the title. Accepts HTML
 
 > **accept** string to the "accept" button.
 

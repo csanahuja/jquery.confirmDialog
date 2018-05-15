@@ -14,6 +14,7 @@
 			"<div id='confirm_backdrop'></div>"+
 			"<div id='confirm_dialog'>"+
 				"<div id='confirm_title'></div>"+
+				"<div id='confirm_template'></div>"+
 				"<div id='confirm_actions'>"+
 					"<button id='confirm_doit'></button>"+
 					"<button id='confirm_dont'></button>"+
@@ -21,6 +22,7 @@
 			"</div>"
 		);
 		$('#confirm_title').html(options.title);
+		$('#confirm_template').html(options.template);
 		$('#confirm_doit').html(options.accept);
 		$('#confirm_dont').html(options.refuse);
 		
